@@ -1,0 +1,152 @@
+/* Essentials */
+
+body {
+	font-family: 'Josefin Slab', serif;
+	background-color:rgb(144,201,192);
+}
+
+p {
+	line-height: 150%;
+	
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font-weight: lighter; /*counteract strong browser anti-aliasing*/
+}
+
+div.choice-label {	
+	color: #666666;
+	font-size: 28px;
+}
+#user-results {	
+	color: rgb(241,166,75);
+	font-size: 24px;
+}
+#computer-results {	
+	color: rgb(241,166,75);
+	font-size: 24px;
+}
+#winner-results {	
+	color: rgb(241,166,75);
+	font-size: 24px;
+}
+
+/* Header */
+
+.wrapper {
+	text-align: center;
+	color: white;
+	font-size: 48px;
+
+}
+
+/* ============== TOP HALF  =============*/
+
+
+.top_half {
+	height: 200px;
+	width: auto;
+	padding: 0 0 100px 90px;
+}
+#text1 {	
+	color: #666666;
+	font-size: 28px;
+	text-align: center;
+	margin-right: 62px;
+}
+/*.top_half.left {
+	float: left;
+}
+.top_half.middle {
+	display: inline-block;
+}
+.top_half.right {
+	float: right;
+}*/ 
+
+/* ============== TOP LEFT ============= */
+
+.left {
+	float:left;
+	margin-left: -40px;
+}
+
+.left-text {
+	text-align: center;
+	font-size: 30px;
+	margin-right: 62px;
+}
+
+.weapons {
+	height: 300px;
+	width: 495px;
+}
+
+.rock {
+	content:url(images/rock.jpg);
+	float: left;
+}
+.paper { 
+	content:url(images/paper.jpg);
+	display: inline-block;
+}
+.scissors {
+	content:url(images/scissors.jpg);
+	float: right;
+	margin-right: 70px;
+}
+#computerpicture {
+/*	content:url(images/rock.jpg);*/
+	float: right;
+	margin-right: 184px;
+}
+
+/* ============== TOP CENTER ============ */
+
+.middle {
+	
+}
+#versus {
+	color: white;
+	font-size: 130px;
+	position: absolute;
+	padding-top: 72px;
+}
+
+/* ============== TOP RIGHT ============= */
+
+.right {
+	float:right;
+	margin-right: 30px;
+}
+
+.right-text {
+	text-align: center;
+	font-size: 30px;
+
+}
+div.computer {
+	
+}
+
+/* ============= BOTTOM HALF ============ */
+
+.bottom_half {
+	background-color: white;
+	font-family: Helvetica;
+	padding: 20px 100px;
+	border-radius: 5px;
+}
+.results {
+	background-color: white;
+	display: inline-flex;
+}
+#comp {
+	padding-left: 180px;
+}
+#result {
+	padding-left: 180px;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<title>Rock, Paper, Scissors</title>
+	<link rel="stylesheet" media="all" href="stylesheet.css"/>
+	<!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+	<script src="javascript.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+	<header>
+		<div class="wrapper">
+			<h1 class="logo">ROCK PAPER SCISSORS</h1>	
+		</div><!--.wrapper-->
+	</header>
+
+	<section class="top_half">
+		<div class="left">
+			<div id="left-text">
+				<div id="text1">Human, Choose Your Weapon</div>
+			</div>
+			<div class="weapons">
+				<div class="rock" onclick="playGame('rock')"></div>
+				<div class="paper" onclick="playGame('paper')"></div>
+				<div class="scissors" onclick="playGame('scissors')"></div>
+			</div><!--.weapons-->
+		</div><!--.left-->
+		<div class="middle">
+			<a id="versus">VS</a>
+		</div><!--middle-->
+		<div class="right">
+			<!-- <div id="right-text"> -->
+			<div id="text1">The Mighty Computer Chooses</div>
+			<!-- </div> -->
+			<div id="computerpicture"></div>
+		</div><!--right-->
+	</section><!--top half-->
+	
+
+	<section class="bottom_half">
+		<div class="results">
+			<div id="you">
+				<div class="choice-label">You Chose</div>
+				<div id="user-results"></div>
+			</div><!--you-->
+			<div id="comp">
+				<div class="choice-label">The Computer Chose</div>
+				<div id="computer-results"></div>	
+			</div><!--comp-->
+			<div id="result">
+				<div class="choice-label">Winner</div>
+				<div id="winner-results"></div>
+			</div><!--result-->
+		</div><!--results-->
+	</section>
+</body>
+</html>
